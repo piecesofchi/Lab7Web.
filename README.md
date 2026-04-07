@@ -1,61 +1,20 @@
-# CodeIgniter 4 Framework
-
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.2 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+<img width="424" height="326" alt="1" src="https://github.com/user-attachments/assets/a118ce9f-db82-430f-8b05-547ea6a99303" />
+<img width="960" height="540" alt="2" src="https://github.com/user-attachments/assets/96fbb640-ee5c-4da1-9781-879a3b4bb81c" />
+<img width="960" height="540" alt="3" src="https://github.com/user-attachments/assets/3296c44d-178d-4f2b-9593-d58bd58cfb5c" />
+<img width="960" height="540" alt="4" src="https://github.com/user-attachments/assets/8a5f808d-a239-46ce-bd0c-481504a290f3" />
+<img width="960" height="540" alt="5" src="https://github.com/user-attachments/assets/503dfe29-2d35-40f6-858f-8f718fd8d1a0" />
+<img width="960" height="540" alt="6" src="https://github.com/user-attachments/assets/c00d145e-d636-4bc5-b049-563906640e8d" />
+<img width="960" height="540" alt="7" src="https://github.com/user-attachments/assets/22025b3d-11c8-469c-ae40-d83d55e77a78" />
+<img width="960" height="540" alt="8" src="https://github.com/user-attachments/assets/4c9978cb-d2ac-42e0-bc70-8a6d50a68a36" />
+<img width="960" height="540" alt="9" src="https://github.com/user-attachments/assets/ac1b553b-b963-4715-90bd-896dc0f94c88" />
+<img width="960" height="540" alt="10" src="https://github.com/user-attachments/assets/ac16d3a6-0e79-4dcd-985c-ad83e30748ef" />
+<img width="960" height="540" alt="11" src="https://github.com/user-attachments/assets/fd54a75c-563c-4a69-902b-aead7f6c6c9e" />
+<img width="960" height="540" alt="12" src="https://github.com/user-attachments/assets/76a425f0-6978-4d8a-a52d-5bf6ab13704a" />
+<img width="960" height="540" alt="13" src="https://github.com/user-attachments/assets/e410c134-3e08-4e03-83d4-f7479bf6386e" />
+<img width="960" height="540" alt="14" src="https://github.com/user-attachments/assets/520924a1-5449-4fc1-a28a-33f928edb0e7" />
+<img width="960" height="540" alt="15" src="https://github.com/user-attachments/assets/9efa7ee8-ba6f-40ff-a35e-057e856c5b38" />
+<img width="960" height="540" alt="16" src="https://github.com/user-attachments/assets/d68cb9f2-7267-44ac-8b61-447343b5c86a" />
+<img width="960" height="540" alt="17" src="https://github.com/user-attachments/assets/74f9545e-35ca-47d1-8e21-494f692629e0" />
+<img width="960" height="540" alt="18" src="https://github.com/user-attachments/assets/78ade018-510b-44ec-8afd-00cb37fa823f" />
+<img width="960" height="540" alt="19" src="https://github.com/user-attachments/assets/96f143b5-dae8-4e2b-93d7-a18f40eb3386" />
+<img width="960" height="540" alt="20" src="https://github.com/user-attachments/assets/c3bd4e5b-56c9-4f86-967d-4eaab7f99613" />
