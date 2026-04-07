@@ -1,0 +1,274 @@
+/* Reset Margin & Padding bawaan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8; /* Warna latar belakang abu-abu sangat muda */
+    color: #333;
+}
+
+/* Kotak putih utama yang membungkus semua konten */
+#container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Header atas tempat teks Layout Sederhana */
+header {
+    padding: 25px 20px;
+}
+
+header h1 {
+    color: #a0a0a0; /* Warna abu-abu persis seperti di gambar */
+    font-size: 2.2em;
+}
+
+/* Navigasi Menu (Warna Merah Lucu) */
+nav {
+    background-color: #ff6b8b; /* Merah lucu / pink pastel agak gelap */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+/* Efek saat menu di-klik atau kursor diarahkan */
+nav a:hover, nav a.active {
+    background-color: #ff476c; /* Merah lucu yang sedikit lebih gelap */
+}
+
+/* Bungkus untuk membagi 2 sisi (Kiri Konten, Kanan Sidebar) */
+#wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+/* Bagian Kiri (Konten Utama) */
+#main {
+    flex: 70%;
+    padding-right: 30px;
+}
+
+#main h1 {
+    font-family: "Times New Roman", Times, serif; /* Sesuai gambar modul yang pakai huruf serif */
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+#main hr {
+    border: 0;
+    border-top: 1px solid #444;
+    margin-bottom: 15px;
+}
+
+#main p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.05em;
+}
+
+/* Bagian Kanan (Sidebar Widget) */
+#sidebar {
+    flex: 30%;
+}
+
+.widget-box {
+    border: 1px solid #ffccd5; /* Garis tepi kotak warna merah pastel tipis */
+    margin-bottom: 20px;
+}
+
+/* Judul Widget (Warna Merah Lucu) */
+.widget-box .title {
+    background-color: #ff6b8b; 
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.widget-box ul {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.widget-box ul li {
+    margin-bottom: 8px;
+}
+
+.widget-box ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.widget-box ul li a:hover {
+    color: #ff6b8b;
+}
+
+.widget-box p {
+    padding: 15px;
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer bawah (Warna Hitam/Abu Tua) */
+footer {
+    background-color: #1a1a1a; 
+    color: #cccccc;
+    padding: 15px 20px;
+    font-size: 0.85em;
+}
+
+/* =========================================
+   GAYA KHUSUS UNTUK TABEL ADMIN & TOMBOL
+   ========================================= */
+
+/* Pengaturan Tabel */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ffccd5; /* Garis pembatas warna merah pastel */
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Header Tabel (Bagian atas tabel) */
+.table th {
+    background-color: #ff6b8b; /* Warna latar merah lucu */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table tfoot th {
+    background-color: #ff6b8b;
+    color: #ffffff;
+}
+
+/* Efek belang-belang (zebra) pada baris tabel biar gampang dibaca */
+.table tbody tr:nth-child(even) {
+    background-color: #fff9fa;
+}
+
+/* Pengaturan Dasar Tombol (Ubah / Edit) */
+.btn {
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: #a0a0a0; /* Warna abu-abu persis seperti di gambar modul */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px; /* Ujung tombol sedikit melengkung */
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #808080;
+}
+
+/* Pengaturan Khusus Tombol Hapus (Warna Merah Terang) */
+.btn-danger {
+    background-color: #e63946; /* Merah yang lebih tegas untuk tombol hapus */
+}
+
+.btn-danger:hover {
+    background-color: #c1121f;
+}
+
+/* =========================================
+   GAYA KHUSUS HALAMAN LOGIN (CUTE RED)
+   ========================================= */
+
+#login-wrapper {
+    width: 350px;
+    margin: 100px auto; /* Biar kotaknya di tengah */
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #ffccd5; /* Bingkai merah pastel */
+    border-radius: 15px; /* Ujungnya bulat lucu */
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3); /* Bayangan soft pink */
+    text-align: center;
+}
+
+#login-wrapper h1 {
+    color: #ff6b8b; /* Pink cerah */
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    color: #ff85a1;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffccd5;
+    border-radius: 8px;
+    box-sizing: border-box; /* Biar padding nggak nambah lebar kotak */
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ff6b8b;
+    box-shadow: 0 0 5px rgba(255, 107, 139, 0.2);
+}
+
+/* Tombol Login Merah Lucu */
+.btn-primary {
+    width: 100%;
+    background-color: #ff6b8b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff4771;
+}
+
+/* Notifikasi Error */
+.alert-danger {
+    background-color: #fff0f3;
+    color: #e63946;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 0.85em;
+    border: 1px solid #ffccd5;
+}
